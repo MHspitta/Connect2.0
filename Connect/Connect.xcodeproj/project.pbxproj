@@ -26,8 +26,8 @@
 		41B1241B20C69C2B0008E343 /* ConnectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B1241A20C69C2B0008E343 /* ConnectTests.swift */; };
 		41B1242620C69C2B0008E343 /* ConnectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B1242520C69C2B0008E343 /* ConnectUITests.swift */; };
 		41B1243420C6A4F00008E343 /* Structs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41B1243320C6A4F00008E343 /* Structs.swift */; };
-		41B6F9F620CEC0890091AD35 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 41B6F9F520CEC0890091AD35 /* GoogleService-Info.plist */; };
 		41FDAA8820D1279F00F79159 /* ActivitiesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41FDAA8720D1279F00F79159 /* ActivitiesViewController.swift */; };
+		6087905D2135196B008A0468 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6087905C2135196B008A0468 /* GoogleService-Info.plist */; };
 		AECC3572EAB1E5FB0AC16F79 /* Pods_Connect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C04D74A13405D150BE94B956 /* Pods_Connect.framework */; };
 		D86E49BEF35E5973C426F855 /* Pods_ConnectUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E7F82DFBD1897585F385CE8 /* Pods_ConnectUITests.framework */; };
 /* End PBXBuildFile section */
@@ -77,8 +77,8 @@
 		41B1242520C69C2B0008E343 /* ConnectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConnectUITests.swift; sourceTree = "<group>"; };
 		41B1242720C69C2B0008E343 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		41B1243320C6A4F00008E343 /* Structs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Structs.swift; sourceTree = "<group>"; };
-		41B6F9F520CEC0890091AD35 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../../Desktop/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		41FDAA8720D1279F00F79159 /* ActivitiesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivitiesViewController.swift; sourceTree = "<group>"; };
+		6087905C2135196B008A0468 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		862C5132121E2486986530C3 /* Pods-ConnectUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ConnectUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ConnectUITests/Pods-ConnectUITests.release.xcconfig"; sourceTree = "<group>"; };
 		8E7F82DFBD1897585F385CE8 /* Pods_ConnectUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ConnectUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		96DA11580EAB2FD13E4D422B /* Pods-Connect.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Connect.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Connect/Pods-Connect.debug.xcconfig"; sourceTree = "<group>"; };
@@ -153,11 +153,11 @@
 		41B1240420C69C230008E343 /* Connect */ = {
 			isa = PBXGroup;
 			children = (
+				6087905C2135196B008A0468 /* GoogleService-Info.plist */,
 				41B1240520C69C230008E343 /* AppDelegate.swift */,
 				41B1240920C69C230008E343 /* Main.storyboard */,
 				41B1240C20C69C2A0008E343 /* Assets.xcassets */,
 				41B1240E20C69C2A0008E343 /* LaunchScreen.storyboard */,
-				41B6F9F520CEC0890091AD35 /* GoogleService-Info.plist */,
 				41B1241120C69C2A0008E343 /* Info.plist */,
 				41B1243320C6A4F00008E343 /* Structs.swift */,
 				4104981420D29CF6002D3B93 /* Extensions.swift */,
@@ -313,7 +313,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				41B1241020C69C2A0008E343 /* LaunchScreen.storyboard in Resources */,
-				41B6F9F620CEC0890091AD35 /* GoogleService-Info.plist in Resources */,
+				6087905D2135196B008A0468 /* GoogleService-Info.plist in Resources */,
 				41B1240D20C69C2A0008E343 /* Assets.xcassets in Resources */,
 				41B1240B20C69C230008E343 /* Main.storyboard in Resources */,
 			);
